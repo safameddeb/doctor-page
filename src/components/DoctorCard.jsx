@@ -2,7 +2,7 @@ import React from "react";
 
 const DoctorCard = ({ doctor }) => {
   return (
-    <div className="bg-[#f3f3f3] flex flex-col items-center px-4 sm:px-6 py-10">
+    <div className="min-h-screen w-full bg-[#f3f3f3] flex flex-col items-center px-4 sm:px-6 py-10">
 
       {/* Images en haut côte à côte */}
       <div className="flex justify-center items-center gap-4 sm:gap-6 mb-8">
